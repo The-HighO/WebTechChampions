@@ -1,0 +1,268 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "DM Mono", monospace;
+   list-style: none;
+   text-decoration: none;
+}
+body{
+    background-color: black;
+}
+a{
+    color: white;
+}
+.dm-mono-light {
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .dm-mono-regular {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-mono-medium {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .dm-mono-light-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .dm-mono-regular-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .dm-mono-medium-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+.hero{
+    height: 100vh;
+}
+.nav-container{
+    width: 100%;
+    height: 10%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+    align-items: center;
+    border-radius: 50px;
+    background: #262626;
+}
+.logo{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-ul{
+    height: 1rem;
+    width: 20%;
+    display: flex;
+    gap: 1.5rem;
+}
+.inactive a{
+    color: grey;
+}
+.cta{
+    display: flex;
+    padding: 0.9375rem 2.8125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 3.125rem;
+    background: #FFF;
+    color: black;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.cta a{
+    color: black;
+}
+
+.hero-content{
+    height:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+/* .content-wrapper{
+
+} */
+.hero-txt{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Mono";
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero-p{
+    margin-top: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Mono";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.75rem; 
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-btn{
+    margin-top: 1rem;
+    display: flex;
+    padding: 0.9375rem 3.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 3.125rem;
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+}
+.hero-btn a{
+    color: black;
+    font-weight: 500;
+}
+
+/* About us */
+.hero-2{
+    height: 60vh;
+}
+.nav-container-2{
+    margin-top: 57px;
+}
+.content-wrapper{
+    width: 80%;
+}
+.section-2{
+    height: 70rem;
+    padding: 5rem;
+}
+.s2-sub1{
+    height: 70%;
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.sub1-p{
+    color: #FFF;
+    font-family: "DM Mono";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 0.0575rem;
+}
+.sub1-img{
+    width: 30rem;
+    height: 20rem;
+}
+.s2-sub2{
+    height: 30%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+.lines{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.blocks{
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-txt{
+    font-size: 1.2rem;
+}
+
+
+/* Apply */
+.apply-nav{
+    background: none;
+}
+.hc2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acw-txt{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Mono";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.acw-inputs{
+    margin-top: 2rem;
+    height: 15rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.input-rows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-field{
+    height: 3rem;
+    display: flex;
+    padding: 0.9375rem 1.25rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 3.125rem;
+    border: 1px solid #6F6D6D;
+    background: #262626;
+    color: white;
+}
+.acw-btn{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send{
+    display: flex;
+    padding: 1.25rem 3.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 3.125rem;
+    background: #FFF;
+    border: none;
+    font-weight: 600;
+}
